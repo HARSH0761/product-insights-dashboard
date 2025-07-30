@@ -130,14 +130,13 @@ With thousands of container images to manage, the product offers smart grouping,
 
  ## 🧭 User Flow
 
-```mermaid
-graph LR
+ graph LR
 A[User Logs In] --> B[Views Dashboard Summary]
 B --> C[Checks Scanned Images List]
-C --> D[Applies Filters (Severity, Compliance, Date)]
+C --> D["Applies Filters (Severity, Compliance, Date)"]
 D --> E[Opens Image Details Page]
 E --> F[Reviews CVE List & Fix Recommendations]
 F --> G[Downloads Fix Scripts / Applies Patches]
 G --> H[Triggers Re-Scan or Schedules Future Scan]
 H --> I[Monitors Security Trends & Compliance Reports]
-```
+
